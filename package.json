@@ -1,6 +1,6 @@
 {
   "name": "react-dropdown-wrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convenient, simple, quick dropdown menu wrapper for accessibility.",
   "main": "dist/index.js",
   "scripts": {
