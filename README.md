@@ -48,3 +48,4 @@ import DropdownWrapper from "react-dropdown-wrapper";
 |wrapperProps|object|{}|
 |onStateChange|function|null|
 |children|function|null|
+|initialStatus|bool|false|

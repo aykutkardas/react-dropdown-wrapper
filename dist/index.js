@@ -98,7 +98,7 @@ var DropdownWrapper = function (_Component) {
     _this.toggleContainer = (0, _react.createRef)();
 
     _this.state = {
-      isShow: false
+      isShow: props.initialStatus || false
     };
     return _this;
   }

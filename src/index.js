@@ -6,7 +6,7 @@ class DropdownWrapper extends Component {
     this.toggleContainer = createRef();
 
     this.state = {
-      isShow: false
+      isShow: props.initialStatus || false,
     };
   }
 
