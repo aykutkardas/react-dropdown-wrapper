@@ -1,6 +1,8 @@
 # react-dropdown-wrapper
 Convenient, simple, quick dropdown menu wrapper for accessibility.
 
+## [Demo](https://codesandbox.io/embed/react-dropdown-wrapper-demo-x70su)
+
 ## Install
 ```
 npm install react-dropdown-wrapper
@@ -28,7 +30,9 @@ import DropdownWrapper from "react-dropdown-wrapper";
 >
   {({ changeStatus, isShow }) => (
     <div>
-      <button onClick={() => changeStatus(!isShow)}>Dropdown Toggle Button</button>
+      <button onClick={() => changeStatus(!isShow)}>
+        Dropdown Toggle Button
+      </button>
       {isShow && <div>Dropdown Content</div>}
     </div>
   )}
